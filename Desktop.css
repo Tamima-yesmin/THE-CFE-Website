@@ -1,0 +1,222 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+/*-----nav bar here----*/
+
+/*.nav a{
+    
+    
+    text-align: center;
+    padding: 1px 10px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}--*/
+
+.nav-logo{
+    text-align: left;
+    padding-top: 0px 1px;
+    
+}
+
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+.nav-menu a{
+    padding: 40px 40px;
+    margin: 0px 0px;
+    
+    font-size: 1.3rem;
+    
+}
+
+.nav-menu a:hover{
+    border-bottom: 2px solid;
+}
+
+/*-----nav bar end  here ----*/
+
+
+/*-----cover pic----*/
+.cover-pic img{
+    width: 100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* opacity: 0.8;*/
+  }
+
+  .cover-text h1{
+     
+      top:80px;
+      font-size: 3.4rem;
+      padding-left: 90px;
+  }
+  /*-----cover pic----*/
+
+  /*-- about here------*/
+  .about{
+      margin: 0% 200px;
+  }
+.about-des h2{
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px ;
+    font-size: 2rem;
+   
+}
+.about-des p{
+    
+    text-align: justify;
+    padding: 0% 20px;
+    padding-top: 40px;
+    font-size: 1.2rem;
+}
+.about-block{
+    
+    margin:0px 20px;
+    padding:10px 20px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.about-img img{
+    height: 440px;
+    width: 850px;
+    margin: auto;
+    background-size: cover;
+    
+    
+}
+.about-des2{
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+/*-- about end here------*/
+
+
+/*-- menu  here----------*/
+.menu{
+    margin: 0% 200px;
+}
+.menu-des{
+    font-size: 1rem;
+}
+
+/*-- menu end here----------*/
+
+
+
+/*--------with friend----*/
+.with-friends{
+    margin: 0% 200px;
+}
+.friend-img img{
+   /* height: 400px;
+   max-width:  400px;
+   margin-top: 10px;
+    border-radius: 50%;
+    float: left;*/
+    height: 400px;
+    max-width:  400px;
+    margin-bottom:70px;
+    margin-top: 49px;
+    text-align: left;
+     
+     border-radius: 50%;
+    
+    
+}
+.friend-des p{
+    text-align: right;
+   margin-top: 157px;
+    font-size: 1.2rem;
+}
+/*--------with friend end------*/
+
+
+/*----where----------*/
+.where{
+    
+    margin: 0% 200px;
+}
+.where-img img{
+    height: 400px;
+    width: 850px;
+    margin: auto;
+    background-size: cover;
+    text-align: center;
+    
+}
+.where p{
+    padding-top: 10px;
+    font-size: 1.2rem;
+    
+}
+
+/*----where- end---------*/
+
+
+/*--------reservation here-----*/
+.reservation{
+    margin: 0% 200px;
+}
+.reservation p{
+    font-size: 1.2rem;
+    text-align: left;
+}
+.reservation-form .form-text{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border: 1px inset #ccc ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.form-button{
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    
+}
+.form-button:hover{
+    background-color: rgb(39, 38, 38);
+}
+
+/*--------reservation end here-----*/
+
+
+/*--social media here button--*/
+.media-button h3{
+    padding-top: 7px;
+    
+}
+
+
+.button {
+    
+   padding: 10px 110px;
+}
+
+/*--social media here button--*/

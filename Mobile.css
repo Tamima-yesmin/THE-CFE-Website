@@ -1,0 +1,302 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    /* background-color: #ffe6e6;*/
+    
+    background: linear-gradient(to bottom ,rgb(255, 230, 230),rgba(255, 230, 230,0));
+   
+   text-align: justify;
+   
+   
+ }
+
+ [class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+/* for mobile  */
+[class*="col-"]{
+    width: 100%;
+}
+
+/*-----nav bar here----*/
+
+
+.navbar{
+    background-color:rgb(134, 134, 134);
+    
+    padding: 1% 14%;
+    text-align: center;
+    
+}
+
+
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    
+  
+    margin: px ;
+    padding: 1px;
+    
+    
+}
+.nav-menu a:hover{
+    
+    border-bottom: 3px solid;
+   
+}
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+    
+/*-----nav bar end here----*/
+
+/*--cover pic here------*/
+.cover-pic {
+   clear: both;
+    position: relative;
+    
+   
+ }
+ 
+ .cover-text {
+ position: absolute;
+
+     top: 12px;
+     left: 12px;
+     font-size: 1rem;
+ }
+ .cover-pic::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+ /*--cover pic end here------*/
+
+
+/*-- about here------*/
+.about-des h2{
+    text-align: center;
+    padding: 10px;
+    outline:#fadada dotted 4px; 
+}
+.about-des p{
+    padding: 0 20px;
+}
+
+.about-block{
+    border-left:7px inset rgb(238, 234, 234);
+    background-color:rgb(231, 229, 229);
+    margin: 0% 20px;
+    padding:0px 20px;
+    font-size: 1rem;
+    margin-bottom: 7px;
+}
+
+.about-img img{
+    width: 467px;
+    padding: 0 20px;
+}
+.about::after{
+    content: '';
+    clear: both;
+}
+/*-- about end here------*/
+
+
+/*-- menu  here----------*/
+.menu{
+    padding: 2%;
+}
+.menu h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0 20px;
+    padding: 5px 0;
+}
+
+.menu-card{
+    background-color: whitesmoke;
+    border-radius: 7px;
+    padding: 20px;
+    transition: 0.3s;
+    height: 710px;
+}
+.menu-card:hover{
+ box-shadow: 0 4px 8px 4px gray;
+}
+/*.menu-cover{
+    background: cover;
+    background-image: url(eat-cov.jpg) ;
+    background-repeat: no-repeat;
+   height: auto;
+   width: auto;
+   
+   
+}*/
+.menu-des{
+   
+    padding: 0 10px;
+    font-size: 1rem;
+}
+.menu-title{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.menu::after{
+    content: '';
+    clear: both;
+}
+/*-- menu end here---------*/
+
+
+/*----with friend----*/
+.with-friends{
+    clear: both;
+}
+.friend-img img{
+    height: 400px;
+   max-width:  400px;
+   margin:50px 0px;
+   margin-bottom: 10px;
+   margin-left: 20px;
+    border-radius: 50%;
+}
+
+.friend-des p{
+    padding: 0 20px;
+    font-size: 1em;
+    padding-bottom: 30px;
+}
+.with-friends::after{
+    content: '';
+    clear: both;
+}
+/*----with friend end----*/
+
+
+/*----where----------*/
+.where{
+    clear: both;
+}
+
+
+.where h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0 20px;
+    padding: px 0;
+}
+.where p{
+    padding: 0 20px;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+.where-img img{
+    width: 467px;
+    padding: 0 20px;
+}
+.where::after{
+    content: '';
+    clear: both;
+}
+/*----where end----*/
+
+
+/*--------reservation here-----*/
+.reservation{
+    clear: both;
+}
+.reservation p{
+    padding: 0 20px;
+    font-size: 1em;
+}
+.reservation-form .form-text{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border: 1px inset #ccc ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+}
+.form-button{
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    
+}
+.form-button:hover{
+    background-color: rgb(39, 38, 38);
+}
+.reservation::after{
+    content: '';
+    clear: both;
+}
+/*--------reservation end here-----*/
+
+
+/*--social media here button--*/
+ .media-button{
+     background-color: rgb(134, 134, 134);
+     color: white;
+     margin-top: 40px;
+     padding:17px  40px ;
+     font-size: 1.4rem;
+ }
+ 
+
+ .media-button i{
+     font-size:2rem;
+     padding-top: 14px;
+ }
+
+ .button {
+     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+ }
+
+ 
+ .button i{
+     background-color: white;
+     color: black;
+     padding: 10px;
+     
+     border-radius: 50px;
+     cursor: pointer;
+     transition: 0.1s all;
+     margin-bottom: 20px;
+ }
+ .button i:hover{
+     transform: scale(2,2);
+     background-color: rgb(241, 212, 212);
+ }
+/*--social media here button--*/
